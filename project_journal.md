@@ -471,7 +471,7 @@ In Progress
 Upcoming
 
 - [x] Machine learning model.
-- [ ] Streamlit deployment.
+- [x] Streamlit deployment.
 - [ ] Documentation.
 - [ ] Final README.
 
@@ -479,7 +479,7 @@ Backlog / Future Enhancements
 
 - [ ] Add dashboard filters for advanced portfolio analysis.
 - [x] Compare Logistic Regression with Random Forest.
-- [ ] Deploy Streamlit app online.
+- [x] Deploy Streamlit app online.
 - [ ] Add project architecture diagram.
 
 ⸻
@@ -487,13 +487,13 @@ Backlog / Future Enhancements
 Current Project Status
 
 Current Phase:
-Streamlit Deployment
+Documentation & GitHub Finalization
 
 Overall Progress:
-90%
+95%
 
 Next Milestone:
-Build and Deploy the Streamlit Application
+Complete README and Final Documentation
 
 ⸻
 
@@ -995,3 +995,45 @@ Project Outputs
 Next Action
 
 Begin Phase 9 - Streamlit Application Development.
+
+### Entry 013
+
+Date: Phase 9 - Streamlit Deployment Completed
+
+Completed
+
+- Developed a single-page Streamlit application for loan default prediction.
+- Added an intuitive borrower input form covering loan, applicant, and credit profile information.
+- Automated feature engineering inside the application for `income_group` and `interest_rate_group` to match the machine learning pipeline.
+- Displayed prediction probability, risk level, and business recommendation.
+- Added model summary, project overview, and deployment information within the application.
+- Applied custom CSS styling for a clean, professional interface.
+- Successfully deployed the application to Streamlit Community Cloud.
+
+Deployment
+
+- Live Demo: https://bank-loan-risk-analytics.streamlit.app/
+
+Project Deliverables
+
+- Streamlit Application
+- Online Deployment
+- Deployment-ready project structure
+- Production-ready model loading
+- Responsive user interface
+
+Engineering Decisions
+
+- Kept the application intentionally lightweight and portfolio-focused.
+- Reused the same preprocessing logic as the training pipeline to ensure prediction consistency.
+- Used the optimized Logistic Regression model as the production model.
+- Deployed through Streamlit Community Cloud for free public access.
+
+Business Outcome
+
+- Completed an end-to-end analytics workflow from raw data through deployment.
+- Produced a portfolio-ready web application that allows users to evaluate loan default risk interactively.
+
+Next Action
+
+Begin Phase 10 - Documentation and GitHub README Finalization.
