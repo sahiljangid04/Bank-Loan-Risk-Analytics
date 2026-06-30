@@ -1,0 +1,77 @@
+
+
+/* ===== Global Layout ===== */
+.main {
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.block-container {
+    max-width: 1200px;
+}
+
+/* ===== Typography ===== */
+h1, h2, h3 {
+    color: #0F172A;
+    font-weight: 700;
+}
+
+p, label {
+    font-size: 0.95rem;
+}
+
+/* ===== Buttons ===== */
+.stButton > button {
+    width: 100%;
+    background-color: #2563EB;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 0.7rem;
+    font-weight: 600;
+}
+
+.stButton > button:hover {
+    background-color: #1D4ED8;
+}
+
+/* ===== Inputs ===== */
+div[data-baseweb="select"] > div,
+div[data-baseweb="input"] > div {
+    border-radius: 8px;
+}
+
+/* ===== Metric Cards ===== */
+div[data-testid="stMetric"] {
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.06);
+}
+
+/* ===== Alerts ===== */
+div[data-testid="stAlert"] {
+    border-radius: 10px;
+}
+
+/* ===== Horizontal Rule ===== */
+hr {
+    border: none;
+    border-top: 1px solid #E5E7EB;
+    margin: 1.5rem 0;
+}
+
+/* ===== Footer ===== */
+footer {
+    visibility: hidden;
+}
+
+/* ===== Streamlit Menu ===== */
+#MainMenu {
+    visibility: hidden;
+}
+
+header {
+    visibility: hidden;
+}
