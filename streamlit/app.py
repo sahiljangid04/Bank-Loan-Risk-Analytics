@@ -18,9 +18,14 @@ if css_path.exists():
 
 @st.cache_resource
 def load_artifacts():
-    model = joblib.load("../models/final_model.pkl")
-    scaler = joblib.load("../models/scaler.pkl")
-    encoders = joblib.load("../models/label_encoders.pkl")
+    base_dir = Path(__file__).resolve().parent
+    project_root = base_dir.parent
+    model_dir = project_root / "models"
+
+    model = joblib.load(model_dir / "final_model.pkl")
+    scaler = joblib.load(model_dir / "scaler.pkl")
+    encoders = joblib.load(model_dir / "label_encoders.pkl")
+
     return model, scaler, encoders
 
 model, scaler, encoders = load_artifacts()
