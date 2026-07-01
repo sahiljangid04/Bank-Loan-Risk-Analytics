@@ -188,4 +188,4 @@ The Streamlit web app enables users to input applicant data and receive instant 
 ## Author
 
 **Sahil Jangid**  
-[GitHub](https://github.com/your-github) | [LinkedIn](https://linkedin.com/in/your-linkedin)
+[GitHub](https://github.com/sahiljangid04) | [LinkedIn](https://www.linkedin.com/in/sahil-jangid-45018a311/)
